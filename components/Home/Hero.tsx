@@ -15,10 +15,10 @@ const Hero = () => {
           <p className="text-sm md:text-base lg:text-lg text-black text-opacity-70 mt-4">
             Discover unbeatable deals on our top-quality products! Our MEGA SALE
             features exclusive discounts of up to 75% off on a wide range of items,
-            from trendy apparel to essential home goods. Whether you're looking 
+            from trendy apparel to essential home goods. Whether you&apos;re looking 
             to revamp your wardrobe or upgrade your living space, now is the perfect 
-            time to shop. Don't miss out on these limited-time offers — grab your favorites 
-            before they're gone!
+            time to shop. Don&apos;t miss out on these limited-time offers — grab your favorites 
+            before they&apos;re gone!
           </p>
           <div className="flex mt-6 items-center space-x-4">
             <Link href="#products">
@@ -29,7 +29,7 @@ const Hero = () => {
             <Button size="lg" className="bg-red-700 text-white hover:bg-red-800 transition duration-300"
              onClick={() => window.location.href = 'mailto:prathmesh.malunjkar02@gmail.com?subject=Contact Inquiry'}
             >
-            Contact Us
+              Contact Us
             </Button>
           </div>
         </div>

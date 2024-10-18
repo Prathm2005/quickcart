@@ -1,4 +1,4 @@
-import Category from "@/components/Home/Category";
+
 
 export async function getAllCategories() {
     const categories = await fetch('https://fakestoreapi.com/products/categories');

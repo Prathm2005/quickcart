@@ -6,7 +6,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '../ui/button';
 import { HeartIcon, ShoppingBagIcon, StarIcon } from 'lucide-react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { addItem } from '@/store/cardSlice';
 import { useToast } from '@/hooks/use-toast';
 
