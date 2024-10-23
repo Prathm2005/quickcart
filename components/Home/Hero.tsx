@@ -27,19 +27,20 @@ const Hero = () => {
     <div className="w-full h-[calc(100vh-12vh)] flex justify-center items-center bg-gray-50 relative">
       <div className="w-4/5 mx-auto grid items-center grid-cols-1 lg:grid-cols-2 gap-12">
         <div>
-          <h1 className="text-xl sm:text-2xl mt-0 md:text-3xl lg:text-4xl xl:text-5xl text-black font-bold uppercase">
-            MEGA SALE <span className="text-red-500">Special</span> Offer Up To{" "}
-            <span className="text-orange-500">75%</span> Off
-          </h1>
+        <h1 className=" text-xl sm:text-2xl mt-0   md:text-3xl lg:text-4xl xl:text-5xl text-black font-bold uppercase">
+  MEGA SALE <span className="text-red-500">Special</span> Offer Up To{" "}
+  <span className="text-orange-500">75%</span> Off
+</h1>
 
-          <p className="hidden md:block text-sm md:text-base lg:text-lg text-black text-opacity-70 mt-4">
-            Discover unbeatable deals on our top-quality products! Our MEGA SALE
-            features exclusive discounts of up to 75% off on a wide range of items, from
-            trendy apparel to essential home goods. Whether you're looking to revamp
-            your wardrobe or upgrade your living space, now is the perfect time to shop.
-            Don't miss out on these limited-time offers — grab your favorites before
-            they're gone!
-          </p>
+<p className="hidden   md:block text-sm md:text-base lg:text-lg text-black text-opacity-70 mt-4">
+  Discover unbeatable deals on our top-quality products! Our MEGA SALE
+  features exclusive discounts of up to 75% off on a wide range of items, from
+  trendy apparel to essential home goods. Whether you&#39;re looking to revamp
+  your wardrobe or upgrade your living space, now is the perfect time to shop.
+  Don&#39;t miss out on these limited-time offers — grab your favorites before
+  they&#39;re gone!
+</p>
+
 
           <div className="my-6 lg:hidden relative overflow-hidden">
             <div className="relative w-full h-[300px] flex transition-transform duration-1000 ease-in-out" style={{ transform: `translateX(-${currentImage * 100}%)` }}>
