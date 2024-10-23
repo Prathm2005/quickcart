@@ -52,7 +52,7 @@ const Hero = () => {
             they&#39;re gone!
           </p>
 
-          <div className="my-6  w-full lg:hidden  ">
+          <div className="my-6  lg:hidden  relative overflow-hidden ">
             <div
               className="w-full h-[300px] flex transition-transform duration-1000 ease-in-out"
               style={{ transform: `translateX(-${currentImage * 100}%)` }}
