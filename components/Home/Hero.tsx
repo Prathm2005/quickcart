@@ -42,20 +42,24 @@ const Hero = () => {
 </p>
 
 
-          <div className="my-6 lg:hidden relative overflow-hidden">
-            <div className="relative w-full h-[300px] flex transition-transform duration-1000 ease-in-out" style={{ transform: `translateX(-${currentImage * 100}%)` }}>
-              {images.map((src, index) => (
-                <Image
-                  key={index}
-                  src={src}
-                  alt={`Sale Image ${index + 1}`}
-                  width={500}
-                  height={300}
-                  className="w-full h-full object-cover rounded-lg shadow-lg"
-                />
-              ))}
-            </div>
-          </div>
+        <div className="my-6 lg:hidden relative overflow-hidden">
+  <div
+    className="w-full h-[300px] flex transition-transform duration-1000 ease-in-out"
+    style={{ transform: `translateX(-${currentImage * 100}%)` }}
+  >
+    {images.map((src, index) => (
+      <div key={index} className="flex-shrink-0 w-full h-full">
+        <Image
+          src={src}
+          alt={`Sale Image ${index + 1}`}
+          width={500}  // You can keep or adjust these width/height values
+          height={300}
+          className="w-full h-full object-cover rounded-lg shadow-lg"
+        />
+      </div>
+    ))}
+  </div>
+</div>
 
           <div className="flex mt-6 items-center space-x-4">
             <Link href="#products">
